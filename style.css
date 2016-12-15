@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    
+
+}
+
+section{
+    background-color: #cb3131;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    position: absolute;
+}
+
+.lithium{
+    background-color: #f26522;
+}
+
+.hydrogen{
+      background-color: #1f7689;
+    
+}
+
+.carbon{
+    background-color: #5fa33d;
+}
+
+.magnesium{
+    background-color: #3f3967;
+
+}
+
+.phosphorus{
+    background-color: #cb3131;
+
+    
+}
+
+
+
+.main{
+    width: 20%;
+    margin: 0;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    
+
+}
+
+#li{
+    color: white;
+    background-color: #f26522;
+     z-index:4;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    left:0%;
+    position: absolute;
+
+    
+    
+
+}
+
+#li:hover{
+    width: 35%; 
+}
+
+
+
+#h{
+    color: white;
+    background-color: #1f7689;
+      z-index:3;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    right:60%;
+    position: absolute;
+}
+
+#h:hover{
+    width:35%; 
+    z-index: 5;
+}
+
+#c{
+    color: white;
+    background-color: #5fa33d;
+     z-index:3;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    right:40%;
+    position: absolute;
+}
+
+#c:hover{
+        width:35%; 
+
+}
+
+#mg{
+    color: white;
+    background-color: #3f3967;
+    z-index:3;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    right:20%;
+    position: absolute;
+     
+ 
+}
+
+#mg:hover{
+    width: 35%;
+    
+}
+
+
+
+#p{
+    color: white;
+    background-color: #cb3131;
+    overflow:hidden;
+    z-index:3;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    right:0%;
+    position: absolute;
+    
+
+    
+}
+
+#p:hover{
+    width: 35%;
+
+}
+
+
+
+h1{
+    font-size: 75px;
+    font-size: 5.9vw;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+h2{
+    font-size: 500px;
+    font-size: 9vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 50px;
+    
+}
